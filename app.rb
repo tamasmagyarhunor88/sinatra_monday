@@ -15,3 +15,11 @@ end
 get '/London' do
   "lets see whats going on"
 end
+
+get '/shotgun' do
+  "installed shotgun gem"
+end
+
+get '/whatever' do
+  "testing shotgun for life"
+end
