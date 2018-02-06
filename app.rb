@@ -2,15 +2,12 @@ require 'sinatra'
 
 set :session_secret, 'super secret'
 
-<<<<<<< HEAD
 get '/cat' do
   "<div style='border: 3px dashed red'>
     <img src='http://bit.ly/1eze8aE'>
   </div>"
 end
 
-=======
->>>>>>> 61275aa540addafdb6f0e36b1bdbd09c9ef61827
 get '/' do
   'Hello Josu and Hunor and world!'
 end
@@ -29,10 +26,6 @@ end
 
 get '/shotgun' do
   'just trying shotgun'
-end
-
-get '/shotgun' do
-  "installed shotgun gem"
 end
 
 get '/whatever' do
